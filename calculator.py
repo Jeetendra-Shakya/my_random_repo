@@ -1,11 +1,11 @@
 class Calculator:
     def __init__(self):
-        self.num1=int(input("Enter the first number :- "))
+        self.num1 = int(input("Enter the first number :- "))
         self.num2 = int(input("Enter the second number :- "))
 
     def add(self):
-        r=self.num1 + self.num2
-        result= 'The sum of '+str(self.num1)+' and '+str(self.num2) +' is '+str(r)
+        r = self.num1 + self.num2
+        result = 'The sum of ' + str(self.num1) + ' and ' + str(self.num2) + ' is ' + str(r)
         print(result)
         return result
 
